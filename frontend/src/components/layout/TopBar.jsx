@@ -6,7 +6,7 @@ const TopBar = () => {
   return (
     <div className="bg-[#FA8072] text-white py-0.2">
       <div className="container mx-auto flex  items-center gap-4">
-
+      <div className="flex items-center bg-white rounded-full px-3 py-1 w-full max-w-md shadow-sm">
         <CiSearch className="h-7 w-7 text-white" />
 
         <input
@@ -14,6 +14,7 @@ const TopBar = () => {
           placeholder="Search products..."
           className="w-full max-w-md bg-white text-gray-800 rounded-full px-2 py-0.5 outline-none mt-1 mb-1"
         />
+        </div>
         <div className='flex items-center space-x-6 ml-auto'>
         <a href="#" className='hover:text-gray-300'>
           <FaInstagram className='h-7 w-7' />
