@@ -13,7 +13,7 @@ import img6 from "../../assets/97.jpg";
 const items = [
   { title: "Pot holders", img: img1 },
   { title: "kitchen towel", img: img2 },
-  { title: "Table runner", img: img3 },
+  { title: "apron", img: img3 },
   { title: "curtains", img: img4 },
   { title: "Table mats", img: img5 },
   { title: "chair cushions", img: img6 },
@@ -33,8 +33,7 @@ const DiscoverSlider = () => {
                                 {item.title}
                             </h3>
                             <div className='h-px w-12 bg-[#a45732] my-4'></div>
-                            <a href="https://airwill.in" target="_blank" rel="noopener noreferrer" className='px-6 py-2 bg-[#ededed] text-[#7C0A02] uppercase tracking-wide text-sm hover:bg-[#FA8072] transition'>
-                            Shop collection</a>
+                            
                             <img src={item.img} alt={item.title} className='w-full h-55 object-cover object-center mt-5'/>
                         </div>
                     </SwiperSlide>

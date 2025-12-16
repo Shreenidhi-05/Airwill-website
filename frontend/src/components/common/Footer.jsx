@@ -18,11 +18,7 @@ const Footer = () => {
                             Karur - 639006,<br/>
                             Tamil Nadu, India
                         </p>
-                        <p className='font-montserrat text-m mt-4'>
-                            <a href="https://airwill.in/" target='_blank' rel="noopener noreferrer" className='inline-block bg-[#A45A52] shadow-md text-[#ededed] hover:text-[#FA8072] underline px-6 py-3 shadow-md transition duration-300 uppercase'>
-                            SHOP NOW
-                            </a>
-                            </p>
+                        
                     </div>
                     <div>
                         <h3 className='font-brand text-xl tracking-[0.1em] uppercase mb-6'>
